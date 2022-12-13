@@ -8,19 +8,19 @@ section > .d-flex.container-fluid.position-relative{
 }
 
 .header-container{
-  background-image: url(./img/mobile-bg-1.png);
+  background-image: url(./img/banner-real.png);
   background-position: center;
   background-size: cover;
   height: 90vh;
 }
 
-nav ul li a{
+/* nav ul li a{
   font-family: 'Lexend', sans-serif;
   text-decoration: none;
   color: #000;
   font-size: 18px;
   font-weight: 500;
-}
+} */
 
 .cards{
   margin-top: 100px;
@@ -42,6 +42,15 @@ nav ul li a{
 
 .container-cards{
   margin-top: 70px;
+}
+
+.logo{
+  width: 60px;
+}
+
+.nav-link{
+  font-weight: 500;
+  font-family: 'Lexend';
 }
 
 .btn{
@@ -322,10 +331,10 @@ nav ul li a{
 .email-field-button{
 
 }
-
+/* 
 .navbar-toggler span{
   color: #000 !important;
-}
+} */
 
 .refresh-text h1{
   font-size: 27px;
@@ -433,35 +442,41 @@ nav ul li a{
   color: #000;
 }
 
-.nav ul li a{
+/* .nav ul li a{
   color: #000 !important;
-}
-
+} */
+/* 
 .navbar-nav ul li a{
   color: #000 !important;
-}
+} */
 
-.navbar-brand img{
+/* .navbar-brand img{
   width: 20%;
-}
+} */
 
 .banner-img{
   z-index: -10;
 }
 
-.nav-item{
+/* .nav-item{
   width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.nav-item a{
+/* .nav-item a{
   color: #000 !important;
-}
+} */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .header-container{
-    background-image: url(./img/banner-real.png);
+    background-image: url(./img/mobile-bg-1.png);
+    display: none;
+  }
+
+  .banner-text{
+    margin: 0 auto;
+    width: 10rem;
   }
 }
